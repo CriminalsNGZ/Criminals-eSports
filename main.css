@@ -265,3 +265,23 @@ footer	{
 #registrationText {
 	color: red;
 }
+
+
+.IgazolasText {
+	color: #333;
+	font-size: 40px;
+	display: block;
+	text-align: center;
+	padding-top: 35px;
+	display: block;
+	text-align: center;
+	text-shadow:
+		-1px -1px 1px #000,
+		1px -1px 1px #000,
+		-1px 1px 1px  #000,
+		1px 1px 1px #000;
+}
+
+.centering {
+	padding-left: 530px;
+}
