@@ -40,6 +40,8 @@ header h1 {
 	position: relative;
 	top: 20px;
 	padding: 0 0 0 30px;
+	font-size: 1.5em;
+	font-weight: bold;
 }
 
 
@@ -72,7 +74,7 @@ footer	{
 }
 
 
-.border div img {
+.border-head div img {
 	width: 400px;
 	display: block;
 	margin-left: auto;
@@ -193,7 +195,7 @@ footer	{
 }
 
 
-.container {
+.container2 {
   position: relative;
   width: 17%;
   display: inline-block;
@@ -207,8 +209,7 @@ footer	{
 .image {
   opacity: 1;
   display: block;
-  width: 100%;
-  height: auto;
+/*   height: auto; */
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -223,11 +224,11 @@ footer	{
   -ms-transform: translate(-50%, -50%)
 }
 
-.container:hover .image {
+.player:hover .image {
   opacity: 0.3;
 }
 
-.container:hover .middle {
+.player:hover .middle {
   opacity: 1;
 }
 
@@ -238,6 +239,18 @@ footer	{
   padding: 8px 16px;
   text-align: center;
 }
+
+.player-list .player {
+	margin-top: 25px;
+}
+
+.player-list .player img {
+	/* margin-left: auto;
+	margin-right: auto; */
+	max-width: 100%;
+    max-height: 100%;
+}
+
 
 
 #headerText {
@@ -293,4 +306,8 @@ footer	{
 
 #plytoxImage {
 	margin-left: 150px;
+}
+
+footer {
+	text-align: center;
 }
