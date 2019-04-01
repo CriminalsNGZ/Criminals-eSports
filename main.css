@@ -1,0 +1,317 @@
+body {
+	margin: 0;
+	font-family: Comic Sans MS;
+	background: white;
+}
+
+
+header {
+	margin: 0;
+	background: black;
+	padding: 10px 15px;
+}
+
+
+
+header .logo a {
+	background-image: url("images/ujlogo2.png");
+	background-size: 100px;
+	background-repeat: no-repeat;
+	position: relative;
+	top: -6px;
+	width: 100px;
+	height: 70px;
+	display: inline-block;
+	text-indent: -999999999px;
+}
+
+
+header li {
+	display: inline-block;
+}
+
+
+header h1 {
+	background: black;
+	color: white;
+	padding: 10px 5px
+	margin:0;
+	display: inline;
+	position: relative;
+	top: 20px;
+	padding: 0 0 0 30px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+
+nav ul {
+	margin: 0;
+	display: inline;
+	position: relative;
+	top: 19px;
+}
+
+
+nav ul li {
+	color: white;
+	display: inline-block;
+	padding: 5px 15px 5px 15px
+}
+
+
+li a {
+	color: white;
+	text-align: center;
+}
+
+
+footer	{
+	background: black;
+	color: white;
+	margin-top: 50px;
+	text-align: left;
+}
+
+
+.border-head div img {
+	width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+
+.page1text p {
+	font-size: 25px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+.redText {
+	color: red;
+	text-shadow:
+		-1px -1px 1px #000,
+		1px -1px 1px #000,
+		-1px 1px 1px  #000,
+		1px 1px 1px #000;
+
+}
+
+
+.regText {
+	color: red;
+	text-shadow:
+		-1px -1px 1px #000,
+		1px -1px 1px #000,
+		-1px 1px 1px  #000,
+		1px 1px 1px #000;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+.feltetelekText {
+	color: #333;
+	text-shadow:
+		-1px -1px 1px #000,
+		1px -1px 1px #000,
+		-1px 1px 1px  #000,
+		1px 1px 1px #000;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 50px;
+	display: block;
+
+}
+
+.feltetelek {
+	color: red;
+	text-shadow:
+		-1px -1px 1px #000,
+		1px -1px 1px #000,
+		-1px 1px 1px  #000,
+		1px 1px 1px #000;
+	font-size: 25px;
+	text-align: center;
+	display: block;
+	list-style-type: none;
+}
+
+.redText li {
+	list-style: none;
+}
+
+
+.squadText section {
+	display: inline-flex;
+}
+
+
+.squadText {
+	text-align: center;
+}
+
+
+.squadText ul {
+	padding: 0;
+	margin: 60px;
+	font-size: 27px;
+}
+
+
+#banner {
+	width: 100%;
+	height: auto;
+	box-shadow: black 0 10px 40px;
+	top: 10px;
+	padding-top: 5px;
+}
+
+
+.list-heading {
+	color: #333;
+	font-size: 33px;
+}
+
+
+#squadheaderText {
+	font-size: 30px;
+	text-align: center;
+	color: #333;
+}
+
+
+.gototopid {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 25%;
+  	padding-left: 50px;
+  	padding-top: 50px;
+}
+
+
+.container2 {
+  position: relative;
+  width: 17%;
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-left: 122px;
+}
+
+
+.image {
+  opacity: 1;
+  display: block;
+/*   height: auto; */
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.player:hover .image {
+  opacity: 0.3;
+}
+
+.player:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #801515;
+  color: white;
+  font-size: 15px;
+  padding: 8px 16px;
+  text-align: center;
+}
+
+.player-list .player {
+	margin-top: 25px;
+}
+
+.player-list .player img {
+	/* margin-left: auto;
+	margin-right: auto; */
+	max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+#headerText {
+	color: #333;
+	font-size: 47px;
+	display: block;
+	text-align: center;
+	padding-top: 35px;
+	text-shadow:
+		-1px -1px 1px #000,
+		1px -1px 1px #000,
+		-1px 1px 1px  #000,
+		1px 1px 1px #000;
+}
+
+
+#homeText {
+	color: red;
+}
+
+#playersText {
+	color: red;
+}
+
+#registrationText {
+	color: red;
+}
+
+.centering {
+	padding-left: 530px;
+}
+
+.newscsuti {
+	width: 800px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#newsText {
+	font-size: 25px;
+	color: red;
+	text-align: center;
+	text-shadow:
+		-1px -1px 1px #000,
+		1px -1px 1px #000,
+		-1px 1px 1px  #000,
+		1px 1px 1px #000;
+	margin-top: 50px;
+}
+
+
+#plytoxImage {
+	margin-left: 150px;
+}
+
+footer {
+	text-align: center;
+}
+
+a:hover {
+	color: #550000;
+}
