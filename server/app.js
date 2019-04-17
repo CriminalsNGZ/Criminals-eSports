@@ -4,8 +4,8 @@ var express = require("express"),
     server = require("http").createServer(app)
     Players = require("./players");
 
-var port = 3000,
-    serverAddress = "localhost";
+var port = process.env.PORT,
+    serverAddress = process.env.ADDRESS;
 
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public")));
