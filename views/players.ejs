@@ -1,158 +1,81 @@
 <% include ./partials/header %>
+<div class="container">
+	<div id="headerText">Criminals 1</div>
+	<div class="row player-list justify-content-center">
+		<% for (var i = 0; i < Players.criminals1.length; i++) { %>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="player">
+					<img src="<%= Players.criminals1[i].image %>" alt="Avatar" class="image">
+					<div class="middle">
+						<div class="text"><%- Players.criminals1[i].text %></div>
+					</div>
+				</div>
+			</div>
+		<% } %>
+	</div>
 
-		<div id="headerText">Criminals 1</div>
+	<div id="headerText">Criminals 2</div>
 
-		<div class="row player-list justify-content-center">
-							<div class="col-lg-3 col-md-6 col-sm-6">
-								<div class="player">
-									<img src="images/fortnite/herte.png" alt="Avatar" class="image">
-									<div class="middle">
-										<div class="text">Teleki Kristof</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-4 col-sm-6">
-								<div class="player">
-									<img src="images/fortnite/yolo.png" alt="Avatar" class="image">
-									<div class="middle">
-										<div class="text">twitch.tv/yolocsati <br>
-										Kicsiny Erik</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-6 col-sm-6">
-								<div class="player">
-									<img src="images/fortnite/csuti.png" alt="Avatar" class="image">
-									<div class="middle">
-										<div class="text">twitch.tv/xcsutix <br>
-										Csonka Tomi</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-6 col-sm-6">
-								<div class="player">
-									<img src="images/fortnite/maszusz.png" alt="Avatar" class="image">
-									<div class="middle">
-										<div class="text">twitch.tv/maszusz <br>
-										Kohalmi Mate</div>
-									</div>
-								</div>
-							</div>
-		</div>
+	<div class="row player-list justify-content-center">
+		<% for (var i = 0; i < Players.criminals2.length; i++) { %>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="player">
+					<img src="<%= Players.criminals2[i].image %>" alt="Avatar" class="image">
+					<div class="middle">
+						<div class="text"><%- Players.criminals2[i].text %></div>
+					</div>
+				</div>
+			</div>
+		<% } %>
+	</div>
 
-		<div id="headerText">Criminals 2</div>
+	<div id="headerText">Criminals 3</div>
 
-		<div class="row player-list justify-content-center">
-							<div class="col-lg-3 col-md-6 col-sm-6">
-								<div class="player">
-									<img src="images/fortnite/ngz.png" alt="Avatar" class="image">
-									<div class="middle">
-										<div class="text">twitch.tv/ngz__ <br>
-										Novak Gergo Zoltan</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-6 col-sm-6">
-								<div class="player">
-									<img src="images/fortnite/numy.png" alt="Avatar" class="image">
-									<div class="middle">
-										<div class="text">Nemeth Balint</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-6 col-sm-6">
-								<div class="player">
-									<img src="images/fortnite/titaaa.png" alt="Avatar" class="image">
-									<div class="middle">
-										<div class="text">twitch.tv/criminalstitaaa <br>
-										Czebei Krisztian</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-6 col-sm-6">
-								<div class="player">
-									<img src="images/fortnite/kris.png" alt="Avatar" class="image">
-									<div class="middle">
-										<div class="text">Zsedely Kristof Zoltan</div>
-									</div>
-								</div>
-							</div>
-		</div>
+	<div class="row player-list justify-content-center">
+		<% for (var i = 0; i < Players.criminals3.length; i++) { %>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="player">
+					<img src="<%= Players.criminals3[i].image %>" alt="Avatar" class="image">
+					<div class="middle">
+						<div class="text"><%- Players.criminals3[i].text %></div>
+					</div>
+				</div>
+			</div>
+		<% } %>
+	</div>
 
-		<div id="headerText">Criminals 3</div>
+	<div id="headerText">Criminals Console</div>
 
-		<div class="row player-list justify-content-center">
-							<div class="col-lg-3 col-md-4 col-sm-6">
-								<div class="player">
-									<img src="images/fortnite/norbi.png" alt="Avatar" class="image">
-									<div class="middle">
-										<div class="text">twitch.tv/norberto25 <br>
-										Nyeki Tamas Norbert</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-4 col-sm-6">
-								<div class="player">
-									<img src="images/fortnite/lolabel.png" alt="Avatar" class="image">
-									<div class="middle">
-										<div class="text">youtube.com/lolabel <br>
-										🔒SECRET🔒 Abel</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-4 col-sm-6">
-								<div class="player">
-									<img src="images/fortnite/gerii.png" alt="Avatar" class="image">
-									<div class="middle">
-										<div class="text">youtube.com/... <br>
-										Bekesi Gergo</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-4 col-sm-6">
-								<div class="player">
-									<img src="images/fortnite/varnel.png" alt="Avatar" class="image">
-									<div class="middle">
-										<div class="text">twitch.tv/... <br>
-										Sonkoly Marcell</div>
-									</div>
-								</div>
-							</div>
+	<div class="row player-list justify-content-center">
+		<% for (var i = 0; i < Players.console.length; i++) { %>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="player">
+					<img src="<%= Players.console[i].image %>" alt="Avatar" class="image">
+					<div class="middle">
+						<div class="text"><%- Players.console[i].text %></div>
+					</div>
+				</div>
+			</div>
+		<% } %>
+	</div>
 
-		</div>
+	<div id="headerText">Criminals Content Creator</div>
 
-		<div id="headerText">Criminals Console</div>
+	<div class="row player-list justify-content-center">
+		<% for (var i = 0; i < Players.contentCreators.length; i++) { %>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="player">
+					<img src="<%= Players.contentCreators[i].image %>" alt="Avatar" class="image">
+					<div class="middle">
+						<div class="text"><%- Players.contentCreators[i].text %></div>
+					</div>
+				</div>
+			</div>
+		<% } %>
+	</div>
 
-		<div class="row player-list justify-content-center">
-									<div class="col-lg-3 col-md-4 col-sm-6">
-										<div class="player">
-											<img src="images/fortnite/plytox.png" alt="Avatar" class="image">
-											<div class="middle">
-												<div class="text">twitch.tv/PlyTox <br>
-												Szabbo Jacint</div>
-											</div>
-										</div>
-									</div>
-		</div>
-
-		<div id="headerText">Criminals Content Creator</div>
-
-		<div class="row player-list justify-content-center">
-									<div class="col-lg-3 col-md-4 col-sm-6">
-										<div class="player">
-											<img src="images/fortnite/lolabel.png" alt="Avatar" class="image">
-											<div class="middle">
-												<div class="text">youtube.com/lolabel <br>
-												 🔒SECRET🔒 Abel</div>
-											</div>
-										</div>
-									</div>
-		</div>
-
-		<div>
-			<img class="gototopid" src="images/ujlogo2.png" alt="gototop" align="middle">
-		</div>
-
-
-		</div>
+	<div>
+		<img class="gototopid" src="images/ujlogo2.png" alt="gototop" align="middle">
+	</div>
+</div>
 <% include ./partials/footer %>

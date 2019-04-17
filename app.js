@@ -1,7 +1,8 @@
 var express = require("express"),
     app = express(),
     path = require("path"),
-    server = require("http").createServer(app);
+    server = require("http").createServer(app)
+    Players = require("./players");
 
 var port = 3000,
     serverAddress = "localhost";
@@ -18,7 +19,7 @@ app.get("/news", function(req,res) {
     res.render("news", {selectedPage: "news"});
 });
 app.get("/players", function(req,res) {
-    res.render("players", {selectedPage: "players"});
+  res.render("players", {selectedPage: "players", Players: Players});
 });
 app.get("/registration", function(req,res) {
     res.render("registration", {selectedPage: "registration"});
