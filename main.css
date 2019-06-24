@@ -14,8 +14,8 @@ header {
 
 
 header .logo a {
-	background-image: url("images/ujlogo2.png");
-	background-size: 100px;
+	background-image: url("public/images/ujlogo2.png");
+	background-size: 70px;
 	background-repeat: no-repeat;
 	position: relative;
 	top: -6px;
@@ -189,11 +189,10 @@ footer	{
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
-  	width: 25%;
-  	padding-left: 50px;
+  	width: 16%;
+  	padding-left: 40px;
   	padding-top: 50px;
 }
-
 
 .container2 {
   position: relative;
