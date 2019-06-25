@@ -1,74 +1,40 @@
 var Players = {};
 
-Players.criminals1 = [
-  {
-    image: "images/fortnite/herte.png",
-    text: "Teleki Kristof"
-  },
-  {
-    image: "images/fortnite/yolo.png",
-    text: "twitch.tv/yolocsati <br> Kicsiny Erik"
-  },
-  {
-    image: "images/fortnite/csuti.png",
-    text: "twitch.tv/xcsutix <br> Csonka Tomi"
-  },
-  {
-    image: "images/fortnite/maszusz.png",
-    text: "twitch.tv/maszusz <br> Kohalmi Mate"
-  }
-];
-
-Players.criminals2 = [
-  {
-    image: "images/fortnite/ngz.png",
-    text: "twitch.tv/ngz__ <br> Novak Gergo Zoltan"
-  },
-  {
-    image: "images/fortnite/numy.png",
-    text: "Nemeth Balint"
-  },
+Players.criminalsfortnite = [ //Criminals Fortnite//
   {
     image: "images/fortnite/titaaa.png",
-    text: "twitch.tv/criminalstitaaa <br> Czebei Krisztian"
+    text: "twitch.tv/titaaafn <br> Czebei Krisztian"
   },
   {
-    image: "images/fortnite/kris.png",
-    text: "Zsedely Kristof Zoltan"
-  }
+    image: "images/fortnite/edem.png",
+    text: "Adam Gherghe"
+  },
 ];
 
-Players.criminals3 = [
+Players.criminalsjunior = [
   {
-    image: "images/fortnite/norbi.png",
-    text: "Zsedely Kristof Zoltan"
+    image: "images/fortnite/margarin.png",
+    text: "twitch.tv/viggergo <br> Vig Gergő"
   },
   {
-    image: "images/fortnite/lolabel.png",
-    text: "youtube.com/lolabel <br> 🔒SECRET🔒 Abel"
+    image: "images/fortnite/geri.png",
+    text: "twitch.tv/twitchger1 <br> Biró Gergő"
   },
   {
-    image: "images/fortnite/gerii.png",
-    text: "youtube.com/... <br> Bekesi Gergo"
+    image: "images/fortnite/lori.png",
+    text: "twitch.tv/hungamingxd <br> Laudisz Lőrinc"
   },
   {
-    image: "images/fortnite/varnel.png",
-    text: "twitch.tv/... <br> Sonkoly Marcell"
-  }
+    image: "images/fortnite/blntt.png",
+    text: "twitch.tv/blntfn <br> Tóth Bálint"
+  },
 ];
 
-Players.console = [
+Players.criminalscsgo = [
   {
-    image: "images/fortnite/plytox.png",
-    text: "twitch.tv/PlyTox <br> Szabbo Jacint"
-  }
-];
-
-Players.contentCreators = [
-  {
-    image: "images/fortnite/lolabel.png",
-    text: "youtube.com/lolabel <br> 🔒SECRET🔒 Abel"
-  }
+    image: "images/fortnite/lastround.png",
+    text: "twitch.tv/lastround <br> Novak Oliver"
+  },
 ];
 
 module.exports = Players;

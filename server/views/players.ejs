@@ -1,73 +1,45 @@
 <% include ./partials/header %>
+<title>Criminals eSports - Players</title>
+
 <div class="container">
-	<div id="headerText">Criminals 1</div>
+	<div id="headerText">CRIMINALS FORTNITE</div>
 	<div class="row player-list justify-content-center">
-		<% for (var i = 0; i < Players.criminals1.length; i++) { %>
+		<% for (var i = 0; i < Players.criminalsfortnite.length; i++) { %>
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="player">
-					<img src="<%= Players.criminals1[i].image %>" alt="Avatar" class="image">
+					<img src="<%= Players.criminalsfortnite[i].image %>" alt="Avatar" class="image">
 					<div class="middle">
-						<div class="text"><%- Players.criminals1[i].text %></div>
+						<div class="text"><%- Players.criminalsfortnite[i].text %></div>
 					</div>
 				</div>
 			</div>
 		<% } %>
 	</div>
 
-	<div id="headerText">Criminals 2</div>
+	<div id="headerText">CRIMINALS JUNIOR</div>
 
 	<div class="row player-list justify-content-center">
-		<% for (var i = 0; i < Players.criminals2.length; i++) { %>
+		<% for (var i = 0; i < Players.criminalsjunior.length; i++) { %>
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="player">
-					<img src="<%= Players.criminals2[i].image %>" alt="Avatar" class="image">
+					<img src="<%= Players.criminalsjunior[i].image %>" alt="Avatar" class="image">
 					<div class="middle">
-						<div class="text"><%- Players.criminals2[i].text %></div>
+						<div class="text"><%- Players.criminalsjunior[i].text %></div>
 					</div>
 				</div>
 			</div>
 		<% } %>
 	</div>
 
-	<div id="headerText">Criminals 3</div>
+	<div id="headerText">CRIMINALS CS:GO</div>
 
 	<div class="row player-list justify-content-center">
-		<% for (var i = 0; i < Players.criminals3.length; i++) { %>
+		<% for (var i = 0; i < Players.criminalscsgo.length; i++) { %>
 			<div class="col-lg-3 col-md-4 col-sm-6">
 				<div class="player">
-					<img src="<%= Players.criminals3[i].image %>" alt="Avatar" class="image">
+					<img src="<%= Players.criminalscsgo[i].image %>" alt="Avatar" class="image">
 					<div class="middle">
-						<div class="text"><%- Players.criminals3[i].text %></div>
-					</div>
-				</div>
-			</div>
-		<% } %>
-	</div>
-
-	<div id="headerText">Criminals Console</div>
-
-	<div class="row player-list justify-content-center">
-		<% for (var i = 0; i < Players.console.length; i++) { %>
-			<div class="col-lg-3 col-md-4 col-sm-6">
-				<div class="player">
-					<img src="<%= Players.console[i].image %>" alt="Avatar" class="image">
-					<div class="middle">
-						<div class="text"><%- Players.console[i].text %></div>
-					</div>
-				</div>
-			</div>
-		<% } %>
-	</div>
-
-	<div id="headerText">Criminals Content Creator</div>
-
-	<div class="row player-list justify-content-center">
-		<% for (var i = 0; i < Players.contentCreators.length; i++) { %>
-			<div class="col-lg-3 col-md-4 col-sm-6">
-				<div class="player">
-					<img src="<%= Players.contentCreators[i].image %>" alt="Avatar" class="image">
-					<div class="middle">
-						<div class="text"><%- Players.contentCreators[i].text %></div>
+						<div class="text"><%- Players.criminalscsgo[i].text %></div>
 					</div>
 				</div>
 			</div>
