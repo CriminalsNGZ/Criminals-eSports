@@ -9,6 +9,10 @@ Players.criminalsfortnite = [ //Criminals Fortnite//
     image: "images/fortnite/edem.png",
     text: "Adam Gherghe"
   },
+  {
+    image: "images/fortnite/marci.png",
+    text: "twitch.tv/marcell48 <br> Kiss Marcell"
+  },
 ];
 
 Players.criminalsjunior = [
