@@ -36,8 +36,8 @@ Players.criminalsjunior = [
 
 Players.criminalscsgo = [
   {
-    image: "images/fortnite/lastround.png",
-    text: "twitch.tv/lastround <br> Novak Oliver"
+    image: "images/fortnite/fanni.png",
+    text: "Füller Fanni"
   },
 ];
 
