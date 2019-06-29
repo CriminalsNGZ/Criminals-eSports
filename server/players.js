@@ -1,6 +1,6 @@
 var Players = {};
 
-Players.criminalsfortnite = [ //Criminals Fortnite//
+Players.criminalsfortnite = [ 
   {
     image: "images/fortnite/titaaa.png",
     text: "twitch.tv/titaaafn <br> Czebei Krisztian"
