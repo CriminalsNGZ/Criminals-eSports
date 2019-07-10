@@ -1,13 +1,9 @@
 var Players = {};
 
-Players.criminalsfortnite = [ 
+Players.criminalsfortnite = [
   {
     image: "images/fortnite/titaaa.png",
     text: "twitch.tv/titaaafn <br> Czebei Krisztian"
-  },
-  {
-    image: "images/fortnite/edem.png",
-    text: "Adam Gherghe"
   },
   {
     image: "images/fortnite/marci.png",
@@ -28,16 +24,20 @@ Players.criminalsjunior = [
     image: "images/fortnite/lori.png",
     text: "twitch.tv/hungamingxd <br> Laudisz Lőrinc"
   },
-  {
-    image: "images/fortnite/blntt.png",
-    text: "twitch.tv/blntfn <br> Tóth Bálint"
-  },
 ];
 
-Players.criminalscsgo = [
+Players.criminalsgirls = [
   {
     image: "images/fortnite/fanni.png",
     text: "Füller Fanni"
+  },
+  {
+    image: "images/fortnite/kiara.png",
+    text: "Vitez Kiara"
+  },
+  {
+    image: "images/fortnite/klau.png",
+    text: "Kukli Klaudia"
   },
 ];
 
