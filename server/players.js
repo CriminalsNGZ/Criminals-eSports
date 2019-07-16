@@ -20,10 +20,6 @@ Players.criminalsjunior = [
     image: "images/fortnite/geri.png",
     text: "twitch.tv/twitchger1 <br> Biró Gergő"
   },
-  {
-    image: "images/fortnite/lori.png",
-    text: "twitch.tv/hungamingxd <br> Laudisz Lőrinc"
-  },
 ];
 
 Players.criminalsgirls = [
