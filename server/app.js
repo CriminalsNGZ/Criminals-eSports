@@ -18,8 +18,8 @@ app.get("/", function(req,res) {
 app.get("/news", function(req,res) {
     res.render("news", {selectedPage: "news"});
 });
-app.get("/speakers", function(req,res) {
-  res.render("speakers", {selectedPage: "speakers", Players: Players});
+app.get("/players", function(req,res) {
+  res.render("players", {selectedPage: "players", Players: Players});
 });
 app.get("/registration", function(req,res) {
     res.render("registration", {selectedPage: "registration"});
