@@ -12,6 +12,7 @@
     <!-- ========== Favicon Ico ========== -->
     <link rel="shortcut icon" style="image/png" href="assets/img/favicon.ico">
     <!-- ========== STYLESHEETS ========== -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <!-- Bootstrap CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Fonts Icon CSS -->
@@ -29,6 +30,35 @@
 <body>
 <!-- style -->
 <style>
+    ::-webkit-scrollbar {
+        width: 8px;
+        background-color: #080808;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: #801515;
+        box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .gotopbtn {
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        background: #801515;
+        bottom: 40px;
+        right: 50px;
+        text-decoration: none;
+        text-align: center;
+        line-height: 50px;
+        color: white;
+        font-size: 22;
+    }
+    
     .blog_card .blog_box_data .blog_word {
         text-align: justify;
         word-break: normal;
@@ -54,6 +84,8 @@
 
 
 <!--header start here -->
+<a class="gotopbtn" href="#"> <i class="fas fa-chevron-up"></i> </a>
+
 <header class="header navbar fixed-top navbar-expand-md">
     <div class="container">
         <a class="navbar-brand logo" href="#">
@@ -120,7 +152,7 @@
                                     August 08, 2019
                                 </span>
                                 <div class="blog_meta">
-                                    <span><a href="#">By Novak Gergo Zoltan</a></span>  | <span><a href="#">  Transfers   </a></span>
+                                    <span><a>By Novak Gergo Zoltan</a></span>  | <span><a>  Transfers   </a></span>
                                 </div>
                                 <h5>
                                     Criminals Junior tagfelvetel + Transfers
@@ -156,7 +188,7 @@
                             July 08, 2019
                         </span>
                         <div class="blog_meta">
-                            <span><a href="#">By Novak Gergo Zoltan</a></span>  | <span><a href="#">  Transfers   </a></span>
+                            <span><a>By Novak Gergo Zoltan</a></span>  | <span><a>  Transfers   </a></span>
                         </div>
                         <h5>
                             Legujabb Igazolasaink: Klau, Kiara es Panka
@@ -174,7 +206,7 @@
                             June 26, 2019
                         </span>
                         <div class="blog_meta">
-                            <span><a href="#">By Novak Gergo Zoltan</a></span>  | <span><a href="#">  Gaming   </a></span>
+                                <span><a>By Novak Gergo Zoltan</a></span>  | <span><a>  Gaming   </a></span>
                         </div>
                         <h5>
                             A Criminals eSports ujult erovel visszater
@@ -351,16 +383,19 @@
                                 A Criminals egy eSport csapat amely jelenleg komolyan Fortnite es CS:GO-val foglalkozik, celunk hogy minel erdemenyesebb legyen csapatunk vilag szinten es megmeretetthessuk magunkat a vilag legjobb csapataival szemben.
                             </p>
                             <ul class="footer_social">
-                                <li>
-                                    <a href="#"><i class="ion-social-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="ion-social-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/criminalsesports/" target="_blank"><i class="ion-social-instagram"></i></a>
-                                </li>
-                            </ul>
+                                    <li>
+                                        <a href="https://discord.gg/ujAu6wV" target="_blank"><i class="ion-social-whatsapp"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.twitch.tv/criminalsesports/" target="_blank"><i class="ion-social-twitch"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UC7e44y7CfHFK7e4dxKK9vGg" target="_blank"><i class="ion-social-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/criminalsesports/" target="_blank"><i class="ion-social-instagram"></i></a>
+                                    </li>
+                                </ul>
                         </div>
                     </div>
                 </div>
@@ -375,7 +410,7 @@
                         <div class="footer_box_body">
                             <ul class="instagram_list">
                                 <li>
-                                    <a href="#">
+                                    <a href="https://www.instagram.com/p/BxN-cSeA0iZ/" target="_blank">
                                         <img src="assets/img/cleander/i1.png" alt="instagram">
                                     </a>
                                 </li>
