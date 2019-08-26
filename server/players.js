@@ -1,13 +1,21 @@
 var Players = {};
 
-Players.criminalsfortnite = [ //Criminals Fortnite//
+Players.criminalsfortnite = [
   {
     image: "images/fortnite/titaaa.png",
     text: "twitch.tv/titaaafn <br> Czebei Krisztian"
   },
   {
-    image: "images/fortnite/edem.png",
-    text: "Adam Gherghe"
+    image: "images/fortnite/momo.png",
+    text: "twitch.tv/mendez_official <br> László Olivér"
+  },
+  {
+    image: "images/fortnite/klix.png",
+    text: "twitch.tv/kliksz <br> Gery"
+  },
+  {
+    image: "images/fortnite/fisshhhiii.png",
+    text: "twitch.tvfishfeeee <br> Halfinger Krisztián"
   },
 ];
 
@@ -20,20 +28,24 @@ Players.criminalsjunior = [
     image: "images/fortnite/geri.png",
     text: "twitch.tv/twitchger1 <br> Biró Gergő"
   },
-  {
-    image: "images/fortnite/lori.png",
-    text: "twitch.tv/hungamingxd <br> Laudisz Lőrinc"
-  },
-  {
-    image: "images/fortnite/blntt.png",
-    text: "twitch.tv/blntfn <br> Tóth Bálint"
-  },
 ];
 
-Players.criminalscsgo = [
+Players.criminalsgirls = [
   {
-    image: "images/fortnite/lastround.png",
-    text: "twitch.tv/lastround <br> Novak Oliver"
+    image: "images/fortnite/fanni.png",
+    text: "youtube.com/Fanni presents <br> Füller Fanni"
+  },
+  {
+    image: "images/fortnite/kiara.png",
+    text: "Vitéz Kiara"
+  },
+  {
+    image: "images/fortnite/klau.png",
+    text: "Kukli Klaudia"
+  },
+  {
+    image: "images/fortnite/panka.png",
+    text: "twitch.tv/ppanka <br> Palánkai Panka"
   },
 ];
 
